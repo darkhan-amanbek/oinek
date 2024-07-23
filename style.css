@@ -1,0 +1,40 @@
+body,
+body * {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 440px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.lesson {
+  margin: 0 0;
+}
+
+.lesson__canvas {
+  background-color: aliceblue;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.lesson__window {
+  margin: 20px 0;
+  width: 100%;
+  height: 400px;
+  background-color: aliceblue;
+  display: flex;
+}
+
+.lesson__circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: orange;
+  transform-origin: top left;
+  position: absolute;
+}
